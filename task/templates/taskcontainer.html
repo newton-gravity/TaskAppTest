@@ -1,0 +1,36 @@
+{% load static %}
+
+
+{% block TasksContainer %}
+
+
+{% for task in tasks  %}
+<div id="" class="container">
+    <div id="" onclick=" " class="plus-task-container">
+      <input type="checkbox" class="" name="" id=""/>
+      <div id="" class="dbElement" contenteditable="false" >
+        
+        <div id="{{task.id}}" class="taskItem"></div>
+      
+    </div>
+      <img  id=" "  src="{% static 'img/model.png' %}" class="avatar">
+    </div>
+    
+    <div  id="" class="actions-container">
+        <button id="" disabled><object class="icon" data="{% static 'icons/maximize-2.svg' %}" type="image/svg+xml"></object>Open</button>
+        <button id="" disabled><object class="icon" data="{% static 'icons/calendar.svg' %}" type="image/svg+xml"></object>Today</button>
+        <button id="" disabled><object class="icon" data="{% static 'icons/unlock.svg' %}" type="image/svg+xml"></object>Public</button>
+        <button id="" disabled><object class="icon" data="{% static 'icons/maximize-2.svg' %}" type="image/svg+xml"></object>Highlight</button>
+        <button id="" disabled><object class="icon" data="{% static 'icons/disc.svg' %}" type="image/svg+xml"></object>Estimation</button>        
+        <button id="" disabled><object class="icon" data="{% static 'icons/more-vertical.svg' %}" type="image/svg+xml"></object></button>
+        <button disabled class="cancel-btn" onclick="" id="cancelButton">Cancel</button>
+        <button disabled type="" class="ok-btn" onclick="" id="okButton">Ok</button>
+    </div>  
+</div>
+    
+{% endfor %}
+
+
+    
+
+{% endblock TasksContainer %}

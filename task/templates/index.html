@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% load static %}
+  <title>Task App</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  
+</head>
+<body>
+
+  {% block container %}
+    
+    {% include 'newtask.html' %}
+            
+  {% endblock container %}
+
+  {% block TasksContainer %}
+    <div id="myContent">
+      {% include 'taskcontainer.html' %}
+    </div>
+  
+    
+            
+  {% endblock TasksContainer %}
+
+  
+  
+
+  <script src="{% static 'scripts/script.js' %}" ></script>

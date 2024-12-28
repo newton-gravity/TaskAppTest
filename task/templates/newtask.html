@@ -1,0 +1,25 @@
+
+{% load static %}
+
+{% block container %}
+
+<div id="container" class="container">
+    <div id="newTaskContainer" onclick=" " class="plus-task-container">
+      <img  id="plusIcon" class="plus-icon" src="{% static 'icons/plus-square.svg' %}" >
+      <div id="inputElement" class="inputElement" contenteditable="true" ></div>
+      <img  id=" "  src="{% static 'img/model.png' %}"  class="avatar">
+    </div>
+    
+    <div  id="actionContainer" class="actions-container">
+        <button id="btnOpen" disabled><object class="icon" data="{% static 'icons/maximize-2.svg' %}" type="image/svg+xml"></object>Open</button>
+        <button id="btnToday" disabled><object class="icon" data="{% static 'icons/calendar.svg' %}" type="image/svg+xml"></object>Today</button>
+        <button id="btnPublic" disabled><object class="icon" data="{% static 'icons/unlock.svg' %}" type="image/svg+xml"></object>Public</button>
+        <button id="btnHighlight" disabled><object class="icon" data="{% static 'icons/maximize-2.svg' %}" type="image/svg+xml"></object>Highlight</button>
+        <button id="btnEstimation" disabled><object class="icon" data="{% static 'icons/disc.svg' %}" type="image/svg+xml"></object>Estimation</button>        
+        <button id="btnMore" disabled><object class="icon" data="{% static 'icons/more-vertical.svg' %}" type="image/svg+xml"></object></button>
+        <button class="cancel-btn" onclick="cancelFunction()" id="cancelButton">Cancel</button>
+        <button type="" class="ok-btn" onclick="" id="okButton">Ok</button>
+    </div>  
+  </div>
+            
+{% endblock container %}

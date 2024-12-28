@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+.avatar{
+    width: 30px;
+}
+
+
+.container {
+    margin-top: 20px;
+    width: 75%;
+    border-radius: 5px;
+    box-shadow:1px 1px  5px #c1c7d0;
+}
+
+
+.plus-task-container{
+    width: 100%;
+    border: none;
+    display: inline-flex;
+    padding-bottom: 20px;
+    align-items: center; 
+    box-shadow: 1px 1px  1px #c1c7d0;     
+}
+
+.dbElement{
+    width:90%;
+    max-height: 20px;
+    color: #333;
+    outline: none;
+    padding: 10px;
+    display:inline-block;
+    font-size: 16px;
+    align-items: center;
+}
+
+  
+.plus-icon{
+    margin-left: 5px;
+    display: inline;
+    visibility: visible;
+    cursor: pointer;     
+} 
+
+
+.actions-container{
+    width: 100%;
+    padding-top: 1%;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center; 
+}
+
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+.inputElement {
+    width:90%;
+    max-height: 20px;
+    color: #333;
+    outline: none;
+    padding: 10px;
+    display:inline-block;
+    font-size: 16px;
+    align-items: center;
+    
+}
+  
+  
+span.url {
+    color: #038adb;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    display: inline;
+    padding: 6px;
+    margin-right: 3px;
+}
+  
+
+span.state {
+    color: #c31cda;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    display: inline;
+    padding: 6px;
+    margin-right: 3px;
+}
+  
+
+span.email {
+    color: orange;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    display: inline;
+    padding: 6px;
+    margin-right: 3px;
+    
+}
+  
+
+span.contact {
+    color: green;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    display: inline;
+    padding: 6px;
+    margin-right: 3px;
+}
+
+
+span.date {
+    color: cyan;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    display: inline;
+    padding: 6px;
+    margin-right: 3px;
+}
+  
+
+span.default {
+    color: #333;
+    text-decoration: none;
+    background-color:none;
+    border: none;
+    display: inline;
+    margin-right: 3px;
+}
+
+
+button {
+    
+    color: #c1c7d0;
+    padding: 10px 20px;
+    border: 1px solid #c1c7d0;
+    border-radius: 5px;
+    height: 40px;
+    opacity: 1.0;
+    display: inline-flex;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    
+}
+  
+
+.icon{
+    margin-right: 5px;
+}
+
+  
+#btnMore{
+    margin-right: 15%;
+}
+  
+
+#btnOpen{
+    background-color: rgb(234, 240, 245);
+    border: none;
+    margin-right: 10%;
+    color: black;
+}
+
+
+.cancel-btn{
+    background-color: rgb(234, 240, 245);
+    color: black;
+    border: none;
+}
+  
+
+.ok-btn{
+    margin-right: 5px;
+    background-color: blue;
+    border: none;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+  
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+  
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
